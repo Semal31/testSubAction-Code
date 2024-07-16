@@ -3,7 +3,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG" {
-  name     = var.resource_group_name
+  name     = var.subscription_name
   location = "eastus"
 }
 
