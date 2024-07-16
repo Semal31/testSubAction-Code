@@ -2,7 +2,7 @@ variable "subscription_name" {
   type = string
 }
 
-variable "ad_group_id" {
+variable "billing_account_name" {
   type = string
 }
 

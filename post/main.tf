@@ -5,6 +5,6 @@ provider "azurerm" {
 resource "azurerm_subnet" "subnet" {
   name                 = "LinuxSubnet"
   resource_group_name  = var.subscription_name
-  virtual_network_name = var.ad_group_id
+  virtual_network_name = var.billing_account_name
   address_prefixes     = var.address_prefixes
 }
